@@ -13,13 +13,6 @@ const RenderBands = props => {
 };
 
 class BandsContainer extends Component {
-
-  renderBands = () => {
-    return this.props.bands.map(band => {
-      return <li>{band.name}</li>
-    });
-  }
-
   render() {
     return(
       <div>
